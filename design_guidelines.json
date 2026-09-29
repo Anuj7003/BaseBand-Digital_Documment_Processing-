@@ -1,0 +1,62 @@
+{
+  "app_type": "hybrid_fullstack",
+  "theme": "light",
+  "typography": {
+    "headings": "Chivo, sans-serif",
+    "body": "IBM Plex Sans, sans-serif",
+    "weights": ["400", "500", "600", "700"],
+    "scaling": "Fluid scale with tight tracking on H1/H2"
+  },
+  "colors": {
+    "primary": "#1E3A8A",
+    "primary_hover": "#1E40AF",
+    "secondary": "#0F172A",
+    "accent": "#0284C7",
+    "background": "#F8FAFC",
+    "card_background": "#FFFFFF",
+    "border": "#E2E8F0",
+    "text_primary": "#0F172A",
+    "text_muted": "#64748B",
+    "tamper_alert": "#DC2626",
+    "success": "#16A34A"
+  },
+  "visual_enhancers": {
+    "borders": "1px solid #E2E8F0",
+    "radius": "8px",
+    "shadows": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+    "glassmorphism": "backdrop-blur-xl bg-white/80 border border-slate-200"
+  },
+  "component_path": "/app/frontend/src/components/",
+  "grids": {
+    "dashboard_grid": "grid-cols-1 md:grid-cols-4 lg:grid-cols-12 gap-6"
+  },
+  "layouts": {
+    "sidebar": "collapsible compact by default, 5 main sections: Investigation Officer, Police Department, Future Department 1, Future Department 2, Future Department 3",
+    "main_content": "flexible responsive container with generous spacing and data-testid attributes"
+  },
+  "motion": {
+    "transitions": "transition-all duration-200 ease-in-out",
+    "hover": "hover:-translate-y-0.5 hover:shadow-md"
+  },
+  "accessibility": {
+    "contrast": "WCAG AA compliant (minimum 4.5:1 text, 3:1 interactive)",
+    "attributes": "All interactive elements must include data-testid"
+  },
+  "media": [],
+  "image_urls": [
+    {
+      "category": "document_archive",
+      "url": "https://images.unsplash.com/photo-1562240020-ce31ccb0fa7d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwzfHxsZWdhbCUyMGludmVzdGlnYXRpb24lMjBkb2N1bWVudCUyMGFyY2hpdmV8ZW58MHx8fHwxNzkwMzU5NjEzfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Legal investigation archive documents"
+    }
+  ],
+  "instructions_to_main_agent": "Build a secure Legal & Investigation Document Processing and Management Web Application with login, collapsible 5-section sidebar (Investigation Officer, Police Department, Future Department 1, Future Department 2, Future Department 3), case-centric document management (Rahul Sharma, CASE-2026-00125), SHA-256 tamper detection and verification, version control, audit trail page, and robust data-testid attributes.",
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Never use pure black or grey without tinting",
+    "All interactive elements must have data-testid attributes",
+    "Use 2-3x more spacing than typical designs",
+    "Never use transparent backgrounds in headers or overlays without blur",
+    "Ensure all state changes have explicit hover and focus text/bg colors"
+  ]
+}
+
